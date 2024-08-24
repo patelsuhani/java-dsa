@@ -50,3 +50,9 @@ Since both the divide and merge steps are executed `O(log n)` times, the overall
 - **Best Case:** `O(n log n)`
 - **Worst Case:** `O(n log n)`
 - **Average Case:** `O(n log n)`
+
+### Space Complexity
+
+Merge Sort requires additional space to store the two halves of the array during the merge process. This extra space is proportional to the size of the input array.
+
+- **Space Complexity:** `O(n)` because it requires a temporary array to store the merged subarrays.
