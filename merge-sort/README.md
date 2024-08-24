@@ -34,3 +34,19 @@ Consider the following example with an array: `[38, 27, 43, 3, 9, 82, 10]`.
     - `[27, 38, 43]` and `[3, 9, 10, 82]` → `[3, 9, 10, 27, 38, 43, 82]`
 
 The array is now fully sorted: `[3, 9, 10, 27, 38, 43, 82]`.
+
+### Time Complexity
+
+The time complexity of Merge Sort can be analyzed as follows:
+
+- **Divide Step:**
+  - The array is split into two halves recursively, which takes `O(log n)` time because the array is divided in half each time.
+
+- **Merge Step:**
+  - Merging two halves back together takes `O(n)` time because each element needs to be compared and added to the merged array.
+
+Since both the divide and merge steps are executed `O(log n)` times, the overall time complexity is:
+
+- **Best Case:** `O(n log n)`
+- **Worst Case:** `O(n log n)`
+- **Average Case:** `O(n log n)`
