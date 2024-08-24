@@ -86,3 +86,22 @@ Let's walk through an example to illustrate how Insertion Sort works.
 **Result after Pass 4:** `[5, 6, 11, 12, 13]`
 
 **Final sorted array:** `[5, 6, 11, 12, 13]`
+
+### Time Complexity
+
+The time complexity of Insertion Sort depends on the initial order of the elements in the array.
+
+- **Best Case:** 
+  - Occurs when the array is already sorted.
+  - The algorithm only compares each element with its predecessor.
+  - **Time Complexity:** `O(n)`
+  
+- **Average Case:**
+  - Occurs when the array elements are in random order.
+  - On average, each element is compared with half of the sorted subarray.
+  - **Time Complexity:** `O(n^2)`
+  
+- **Worst Case:**
+  - Occurs when the array is sorted in reverse order.
+  - Each new element is compared with all elements in the sorted subarray and placed at the beginning.
+  - **Time Complexity:** `O(n^2)`
