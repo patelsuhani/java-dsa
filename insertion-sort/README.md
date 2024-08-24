@@ -105,3 +105,10 @@ The time complexity of Insertion Sort depends on the initial order of the elemen
   - Occurs when the array is sorted in reverse order.
   - Each new element is compared with all elements in the sorted subarray and placed at the beginning.
   - **Time Complexity:** `O(n^2)`
+
+### Space Complexity
+
+- **Space Complexity:** `O(1)`
+  - Insertion Sort is an **in-place** sorting algorithm.
+  - It requires a constant amount of additional memory space regardless of the input size.
+  
